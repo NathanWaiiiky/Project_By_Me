@@ -102,7 +102,7 @@ while encours:
                 Brick_Neurons_group = pygame.sprite.Group()
                 Pike_Neurons_group_R = pygame.sprite.Group()
                 Brick_Neurons_group_R = pygame.sprite.Group()
-                if Attempt >=20:
+                if Attempt >=100:
                     Generation+=1
                     Attempt=0
                     AI = BestAI.copy()
